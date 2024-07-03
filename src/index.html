@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
-    <title>Stencil Component Starter</title>
-
-    <script type="module" src="/build/stencil-starter-project-name.esm.js"></script>
-    <script nomodule src="/build/stencil-starter-project-name.js"></script>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script type="module" src="../../build/stencil-starter-project-name.esm.js"></script>
+    <link rel="stylesheet" href="../../build/stencil-starter-project-name.css" />
+    <title>chromium issue</title>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <test-component>
+      <div slot="filters"></div>
+    </test-component>
   </body>
 </html>
